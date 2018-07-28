@@ -1,0 +1,90 @@
+﻿@charset "utf-8";
+
+/*common responsive*/
+@media (max-width: 1199px) {
+	.logo{left:5%;}
+	.search{width:51%; right:5%;}
+	.search .ss_txt{height:50px; width:calc(100% - 92px); -moz-width:calc(100% - 92px); -ms-width:calc(100% - 92px); -o-width:calc(100% - 92px); -webkit-width:calc(100% - 92px);}
+	.mainnav li{ width:13%;}
+	.mainnav li.nav0{width:9%;}
+	.header_bg{right:0;}
+	.header .xzs{float:right; position:static; height:36px; line-height:36px; width:auto; background:none; padding:0 10px 0 15px;}
+	.header .xzs a{ margin:0; display:inline; width:auto; height:auto; color:#fff;}
+	.header .xzs span{display:block;}
+	.header .menu{float:right;}
+	.header .menu li.wza{background:url("../images/header_sep.html") no-repeat right 12px;}
+	.header .menu li{padding:0 12px 0 8px;}
+	.header .link{left:0;}
+}
+@media (max-width: 1023px) {
+	.mainnav{display:none;}
+}
+
+/*ipad*/
+@media (max-width: 991px) {
+	
+}
+@media (max-width: 960px) {
+	.body_bg{background:none;}
+	.header{display:none;}
+	.curmb_box{margin-bottom:20px;}
+	.pageMain{padding:0;}
+	.header2_container{padding:0;}
+	
+	.header2{height:auto;}
+	.logo{padding:20px 0; background:url("http://www.zhecheng.gov.cn/skin/css/images/mobile/mobile_headerbg.jpg") no-repeat center top / 100% 100%; position:relative; left:0; top:0; z-index:9;}
+	.logo img{display:block; margin:0 auto; max-width:80%;}
+	.search{ position:relative; left:0; top:0; width:96%; margin:20px auto; padding-right:92px; border-radius:4px; overflow:hidden; height:40px;}
+	.search .ss_txt{background:url("http://www.zhecheng.gov.cn/skin/css/images/mobile/ss_icon.png") no-repeat 15px center #f1f1f1; height:100%; border-radius:0; padding:10px 10px 10px 47px; font-size:14px; width:100%;}
+	.search .ss_btn{ width:92px; height:39px; background:#dd5555; border-radius:0; color:#f7dddd; font-size:16px;}
+	.search p{display:none;}
+	
+	.mainnav_mobile{ background:#2372c2; overflow:hidden; padding:10px 0; font-size:16px;}
+	.mainnav_mobile li{float:left; width:25%; text-align:center; height:34px; line-height:34px; position:relative;}
+	.mainnav_mobile li a{color:#fff;}
+	.mainnav_mobile li:after{content:""; width:1px; height:20px; background:#79beff; position:absolute; top:50%; margin-top:-10px; right:0;}
+	.mainnav_mobile li:nth-child(4):after, .mainnav_mobile li:nth-child(8):after{display:none;}
+	.mainnav_mobile li.nav0 b{vertical-align:middle; font-weight:normal;}
+	.mainnav_mobile li a:hover{color:#79beff;}
+	.navtoggle{position:absolute; width:31px; height:25px; background:url("http://www.zhecheng.gov.cn/skin/css/images/mobile/mainnav_toggle.gif") no-repeat; top:50%; margin-top:-12px; right:2%; z-index:30; cursor:pointer;}
+	.navclose{background-image:url("http://www.zhecheng.gov.cn/skin/css/images/mobile/mainnav_close.png");}
+	
+	.curmb{background-position:15px center; padding-left:45px;}
+	
+	.footer{background:none; color:#666;}
+	.footer .menu{display:block; margin:0 -2%; background:#2372c2; padding:10px 0; font-size:16px; margin-bottom:15px;}
+	.footer .menu a{margin:0 2%; color:#fff;}
+	.footer .menu a:hover{color:#48dfff;}
+	.footer a{color:#666;}
+	
+	.footer .wzbs{display:block; padding:10px 0 15px;}
+	#_ideConac img{height:auto;}
+	#_span_jiucuo img{ height:auto;}
+	
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+	
+	
+}
+
+/* xs mobile*/
+@media (max-width: 768px) {
+	
+	
+	
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+	
+	
+}
+
+@media (max-width: 480px) {
+	.footer .menu a{margin:0 1%;}
+	.common_ban{ display:none;}
+}
+
+@media (max-width: 320px) {
+	
+}
